@@ -15,7 +15,7 @@ int main(void)
 	ppid = getppid();
 	printf("%u\n", my_pid);
 	printf("%u\n", ppid);
-	printf("%u\n", PID_MAX_LIMIT);
+
 	return (0);
 }
 
